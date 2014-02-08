@@ -3,8 +3,8 @@
 <%if !isFirstTarget%><a href="<%firstTarget%>"><%endif%>First<%if !isFirstTarget%></a><%endif%> |
 <%if isPrevTarget%><a href="<%prevTarget%>"><%endif%>Previous Picture<%if isPrevTarget%></a><%endif%> |
 <%if isNextTarget%><a href="<%nextTarget%>"><%endif%>Next Picture<%if isNextTarget%></a><%endif%> |
-<%if !isLastTarget%><a href="<%lastTarget%>"><%endif%>Last<%if !isLastTarget%></a><%endif%> | <a href="<%referrer%>">Thumbnails</a><br>
-</span><hr size="1">
+<%if !isLastTarget%><a href="<%lastTarget%>"><%endif%>Last<%if !isLastTarget%></a><%endif%> | <a href="<%referrer%>">Thumbnails</a><br />
+</span><hr size="1" />
 <%if isSimpleEmbed%>
 <embed src="<%itemLargeImage%>" autoplay="true" showcontrols="true" controller="true">
 <%endif%>
@@ -21,5 +21,5 @@ STANDBY="Loading Windows Media Player components...">
 </OBJECT>
 <%endif%>
 <%if isImage%>
-<a href="<%referrer%>"><img src="<%itemLargeImage%>" width="<%itemWidth%>" height="<%itemHeight%>" title="<%itemName%> (large)" border="0"></a><p>
+<a href="<%referrer%>"><img src="<%itemLargeImage%>" width="<%itemWidth%>" height="<%itemHeight%>" title="<%itemName%> (large)" border="0"></a></p>
 <%endif%>
